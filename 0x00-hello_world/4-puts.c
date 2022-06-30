@@ -1,8 +1,12 @@
-#!/bin/bash
-#icnlude<stdio.h>
-int main()
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * return: 0 after printing function
+ */
+int main(void)
 {
-	char mystr[] = "programming is like building a multilingual puzzle";
-	puts(mystr);
-	return 0;
+	char *var = ("\"programming is like building a multilingual puzzle");
+	puts(var)
+		return (0);
 }
