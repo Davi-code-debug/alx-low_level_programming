@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * return: 0 after printing function
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char *var = ("\"programming is like building a multilingual puzzle");
 
-	puts(var)
+	puts(var);
 	return (0);
 }
