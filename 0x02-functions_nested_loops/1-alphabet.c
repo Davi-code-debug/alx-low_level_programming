@@ -12,15 +12,14 @@
  *
  *     */
 
-int main(void)
+void main(void)
 {
 	char alp = 'a';
 
 	while (alp <= 'z')
 	{
-		putchar(alp);
+		_putchar(alp);
 		alp++;
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
