@@ -1,11 +1,17 @@
-#include <stdio.h>
+#include "main.h"
+
+
+
 /**
- * main - Entry point
- * alp: contains alphabets
  *
- * prints alpbaets in lowercase
- * Return: 0 after success
- */
+ *  * main - check the code
+ *
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
+
 int main(void)
 {
 	char alp = 'a';
