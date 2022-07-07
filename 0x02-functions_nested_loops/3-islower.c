@@ -1,16 +1,14 @@
 #include "main.h"
 /**
  * _islower - displays the value of lower and uppercases
- *int c: contains the letter
+ *c - contains the letter
  *
  * display the return value of c
  * Return: 0 after success
  */
-int main(void)
+int _islower(int c)
 {
-	int r;
-
-	if (_islower(r))
+	if (_islower(c))
 	{
 	_putchar(1 + '0');
 	_putchar('\n');
