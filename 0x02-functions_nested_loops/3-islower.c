@@ -11,7 +11,7 @@ int _islower(int c)
 	char ch = '1';
 	char ch1 = '0';
 
-	if (islower(c))
+	if (_islower(c))
 	{
 	_putchar(ch);
 	_putchar('\n');
