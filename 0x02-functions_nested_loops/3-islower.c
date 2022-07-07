@@ -8,9 +8,9 @@
  */
 int _islower(int c)
 {
-	char il = 'H';
-	char il1 = 'o';
-	char il2 = 'l';
+	char il = "H";
+	char il1 = "o";
+	char il2 = "l";
 
 	c = _islower(il);
 	_putchar(c + '0');
