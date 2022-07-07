@@ -9,15 +9,15 @@
 int main(void)
 {
 	int r;
-	
+
 	if (_islower(r))
 	{
-	printf("1");
+	_putchar(1 + '0');
 	_putchar('\n');
 	}
-	else 
+	else
 	{
-	printf("0");
+	_putchar(0 + '0');
 	_putchar('\n');
 	}
 	return (0);
