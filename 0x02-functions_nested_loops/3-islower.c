@@ -8,8 +8,8 @@
  */
 int _islower(int c)
 {
-	char ch = '1'
-	char ch1 = '0'
+	char ch = '1';
+	char ch1 = '0';
 
 	if (islower(c))
 	{
