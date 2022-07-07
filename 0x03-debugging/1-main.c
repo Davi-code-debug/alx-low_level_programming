@@ -4,7 +4,9 @@
 
 /**
  *main - causes an infinite loop
+ *i: contains the number
  *
+ * escapes an infinite loop
  *Return: 0
  */
 
