@@ -3,12 +3,12 @@
 
 
 /**
+ *main - tests function that prints if integer is positive or negative
+ *i - contains no
  *
- * * main - tests function that prints if integer is positive or negative
- *
- * * Return: 0
- *
- * */
+ *determines whether a number is positive or negative`
+ *Return: 0 after success
+ */
 
 
 
