@@ -8,15 +8,15 @@
  */
 int _islower(int c)
 {
-	char il = "H";
-	char il1 = "o";
-	char il2 = "l";
+	char il[2] = "H";
+	char il1[2] = "o";
+	char il2[2] = "l";
 
-	c = _islower(il);
+	c = _islower(il[0]);
 	_putchar(c + '0');
-	c = _islower(il1);
+	c = _islower(il1[0]);
 	_putchar(c + '0');
-	c = _islower(il2);
+	c = _islower(il2[0]);
 	_putchar(c + '0');
 	_putchar('\n');
 
