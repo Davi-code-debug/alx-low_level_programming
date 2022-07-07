@@ -8,14 +8,17 @@
  */
 int _islower(int c)
 {
-	if (_islower(c))
+	char ch = '1'
+	char ch1 = '0'
+
+	if (islower(c))
 	{
-	_putchar('1');
+	_putchar(ch);
 	_putchar('\n');
 	}
 	else
 	{
-	_putchar('0');
+	_putchar(ch1);
 	_putchar('\n');
 	}
 	return (0);
