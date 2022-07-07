@@ -8,11 +8,16 @@
  */
 int _islower(int c)
 {
-	c = _islower('H');
+	char il
+
+	il = 'H';
+	c = _islower(il);
 	_putchar(c + '0');
-	c = _islower('o');
+	il = 'o';
+	c = _islower(il);
 	_putchar(c + '0');
-	c = _islower(108);
+	il = '108';
+	c = _islower(il);
 	_putchar(c + '0');
 	_putchar('\n');
 
