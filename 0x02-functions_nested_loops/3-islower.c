@@ -8,7 +8,7 @@
  */
 int _islower(int c)
 {
-	char il
+	char il;
 
 	il = 'H';
 	c = _islower(il);
