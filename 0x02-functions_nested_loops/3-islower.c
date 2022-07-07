@@ -6,12 +6,19 @@
  * display the return value of c
  * Return: 0 after success
  */
-int _islower(int c)
+int main(void)
 {
 	int r;
-
-	r = _islower(c);
-	_putchar(r + '0');
+	
+	if (_islower(r))
+	{
+	printf("1");
 	_putchar('\n');
+	}
+	else 
+	{
+	printf("0");
+	_putchar('\n');
+	}
 	return (0);
 }
