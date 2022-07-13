@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * _puts - performs the function of put
- * @n: contains the string
+ * @str: contains the string
+ * i: contains the no
  *
  * prints out a string
  * Return:void
