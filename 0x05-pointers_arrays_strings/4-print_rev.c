@@ -12,8 +12,14 @@
 void print_rev(char *s)
 {
 	int i;
+	char *p = s;
 
-	i = _strlen(s);
+	while (*p != '\0')
+	{
+		p++;
+	}
+
+	i = p -s;
 
 	while (s[i] >= '\0')
 	{
