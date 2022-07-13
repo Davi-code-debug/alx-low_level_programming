@@ -5,6 +5,7 @@
  * print_rev - function print character in reverse
  * @s: contains string
  * i: contains no for increment
+ * p: contains address of string
  *
  * print character in reverse
  * Return: 0 after success
@@ -19,7 +20,7 @@ void print_rev(char *s)
 		p++;
 	}
 
-	i = p -s;
+	i = p - s;
 
 	while (s[i] >= '\0')
 	{
