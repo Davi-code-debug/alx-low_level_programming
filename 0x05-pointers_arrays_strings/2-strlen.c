@@ -9,5 +9,12 @@
  */
 int _strlen(char *s)
 {
-	strlen(s);
+	char *p = s;
+	int length;
+
+	while(*p != '\0')
+	{
+		p++;
+	}
+	p - s;
 }
