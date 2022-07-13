@@ -5,7 +5,7 @@
  * @s: contains string
  *
  * calcs length of string
- * Return: 0 after success
+ * Return: length after success
  */
 int _strlen(char *s)
 {
@@ -16,6 +16,8 @@ int _strlen(char *s)
 	{
 		p++;
 	}
+
 	length = p - s;
-	return (0);
+
+	return (length);
 }
