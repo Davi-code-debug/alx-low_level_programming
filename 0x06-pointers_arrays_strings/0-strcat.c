@@ -4,9 +4,11 @@
  * _strcat - appends two strings
  * @dest: stores first string
  * @src: stores second string
+ * i: con value for des
+ * v: con value for src
  *
  * appends strings
- * Return:
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -16,15 +18,14 @@ char *_strcat(char *dest, char *src)
 	i = 0;
 	v = 0;
 
-	while (dest[i] < '\0')
+	while (dest[i] != '\0')
 	{
-		_putchar(dest[i]);
 		i++;
 	}
 
-	while (src[v] <= '\0')
+	while (src[v] != '\0')
 	{
-		_putchar(src[v]);
+		dest[i] + v = src[v];
 		v++;
 	}
 
