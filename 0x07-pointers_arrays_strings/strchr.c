@@ -12,7 +12,7 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
+	unsigned int i;
 	char *v[i];
 
 	for (i = 0; *(v[i]) != '\0'; i++)
