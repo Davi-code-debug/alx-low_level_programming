@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * memset - fills n memory with b
+ * _memset - fills n memory with b
  * @s: points to buffer
  * @b: replacing char
- * @n:
+ * @n: number of bytes
  * i: contains integer
  *
- * replaces n bytes with a new character
+ * fills n bytes with a new character
  * Return: pointer after success 
  */
 char *_memset(char *s, char b, unsigned int n)
