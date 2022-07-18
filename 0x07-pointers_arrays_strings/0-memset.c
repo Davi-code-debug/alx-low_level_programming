@@ -26,8 +26,11 @@ char *_memset(char *s, char b, unsigned int n)
 		}
 
 		*s = b;
+		while (s[i] != '\0')
+		{
 		_putchar(s[i]);
-		i++;
+		i++
+		}
 	}
 	return (s);
 }
