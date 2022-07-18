@@ -8,7 +8,7 @@
  * i: contains integer
  *
  * fills n bytes with a new character
- * Return: pointer after success 
+ * Return: pointer after success
  */
 char *_memset(char *s, char b, unsigned int n)
 {
