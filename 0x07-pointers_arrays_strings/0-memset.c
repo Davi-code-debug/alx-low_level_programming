@@ -5,7 +5,6 @@
  * @s: points to buffer
  * @b: replacing char
  * @n:
- * arr[n]: is an array with n bytes
  * i: contains integer
  *
  * replaces n bytes with a new character
@@ -14,7 +13,6 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
-	char arr[n];
 
 	while (i <= n)
 	{
@@ -28,8 +26,7 @@ char *_memset(char *s, char b, unsigned int n)
 		}
 
 		*s = b;
-		_putchar(arr[i]);
-		s = s + 1;
+		_putchar(s[i]);
 		i++;
 	}
 	return (s);
