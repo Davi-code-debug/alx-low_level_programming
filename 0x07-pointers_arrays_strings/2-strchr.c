@@ -7,7 +7,7 @@
  *
  * checks for specified character
  * Return: pointer to occurence of letter
- * Return: NULL if character is not found
+ * Returns NULL if character is not found
  */
 char *_strchr(char *s, char c)
 {
