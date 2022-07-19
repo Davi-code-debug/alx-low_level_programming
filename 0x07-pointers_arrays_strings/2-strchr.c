@@ -9,18 +9,18 @@
  *
  * checks for specified character
  * Return: pointer to occurence of letter
+ * Return: NULL if character is not found
  */
 char *_strchr(char *s, char c)
 {
 	unsigned int i;
-	char *v[i];
+	char v[i];
 
-	for (i = 0; *(v[i]) != '\0'; i++)
+	for (i = 0; *s != '\0'; i++)
 	{
-		*v[i] = *(s + i);
-		if (*(v[i]) = c)
-		return (v[i]);
-	else
-		return (NULL);
+		*(v + i) = *(s + i);
+		if (*(v + i) == c)
+		return (s);
 	}
+		return (NULL);
 }
