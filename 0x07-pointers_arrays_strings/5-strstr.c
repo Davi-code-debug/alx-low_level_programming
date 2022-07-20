@@ -4,6 +4,8 @@
  * _strstr - finds a substring in a string
  * @haystack: points to string
  * @needle: points to substring
+ * i: increments haystack
+ * j: increments needle
  *
  *locates a substring
  * Return: haystack at the first occurrence of
@@ -12,11 +14,17 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack != '\0')
+	int i, j;
+
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
-		if (*haystack == *needle)
-			return (haystack);
-		haystack++;
+		for (j = 0; needle[j] != '\0'; j++)
+		{
+			if (haystack[i + j] != needle[j])
+				break;
+		}
+		if (needle[j] == '\0')
+			return (&haystack[i]);
 	}
 	return (NULL);
 }
