@@ -8,7 +8,7 @@
  * prints strings
  * Return: 0 after success
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
