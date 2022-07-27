@@ -7,6 +7,7 @@
  * @size: the number of arrays
  * @c: the character
  *
+ * creates an array of characters
  * Return: a pointer to the array created
  */
 char *create_array(unsigned int size, char c)
@@ -22,7 +23,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	for (i = 0; i < size; i++)
 	{
-		*(ch + 1) = c;
+		*(ch + i) = c;
 	}
 	return (ch);
 }
