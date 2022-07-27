@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - creates an array for c
+ * create_array - creates an array for c
  * @size: the number of arrays
  * @c: the character
  *
